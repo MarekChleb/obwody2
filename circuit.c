@@ -24,5 +24,8 @@ int main(void) {
         }
     }
     lookForCycle(1);
+    /*
+     * TODO figure out the connections
+     */
     return 0;
 }
