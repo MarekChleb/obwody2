@@ -14,7 +14,13 @@ typedef struct node {
 
 node_t* neighbour[MAX_N];
 
-extern int isStackEmpty();
+node_t* createNewNode(int key);
+
+void lookForCycle(int i);
+
+int addNode(int from, int to);
+
+int isStackEmpty();
 
 int isStackFull();
 
